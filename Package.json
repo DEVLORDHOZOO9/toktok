@@ -1,0 +1,27 @@
+{
+  "name": "tiktok-reporter-telegram",
+  "version": "2.0.0",
+  "description": "TikTok Reporter with Telegram Bot",
+  "main": "tiktok-bot.js",
+  "scripts": {
+    "start": "node tiktok-bot.js",
+    "bot": "node tiktok-bot.js",
+    "setup": "chmod +x setup.sh && ./setup.sh",
+    "install-tor": "sudo apt update && sudo apt install -y tor"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "socks-proxy-agent": "^8.0.2",
+    "telegraf": "^4.16.3",
+    "node-cron": "^3.0.3",
+    "chalk": "^4.1.2",
+    "cli-progress": "^3.12.0",
+    "ora": "^5.4.1",
+    "figlet": "^1.6.0",
+    "moment-timezone": "^0.5.45",
+    "user-agents": "^1.0.559"
+  },
+  "keywords": ["tiktok", "reporter", "telegram", "bot"],
+  "author": "Hozoo Team",
+  "license": "MIT"
+}
